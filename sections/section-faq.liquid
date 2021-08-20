@@ -20,47 +20,6 @@
     </div>
 </div>
 
-<style>
-  .accordion {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 24px 12px 48px;
-    border-radius: 8px;
-  }
-  input[type="checkbox"] {
-    display: none;
-  }
-  label {
-    display: block;
-    padding: 12px 0 0;
-    cursor: pointer;
-    position: relative;
-  }
-  label:after {
-    content:'\f055';
-    display: block;
-    font-family: fontawesome;
-    font-size: 24px;
-    position: absolute;
-    top: 50%;
-    left: -36px;
-    transform: translateY(-25%);
-  }
-  .response {
-    padding: 0;
-    max-height: 0px;
-    overflow: hidden;
-    transition: all 100ms ease-in-out;
-  }
-  input[type="checkbox"]:checked ~ .response {
-    padding: 24px 0 12px 0;
-    max-height: 900px;
-  }
-  input[type="checkbox"]:checked ~ label:after {
-    content: '\f056';
-  }
-</style>
-
 {% schema %}
  {
    "name": "FAQ Section",
