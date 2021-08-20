@@ -1,26 +1,23 @@
-<div class="grid--full">
-  <div class="blog-featured-image" style="background-color: white; {% if section.settings.image %}background-image: url({{ section.settings.image | img_url: '1920x', format: 'pjpg' }}); height: 400px;{% else %}{% endif %};">
-  </div>
-  <div class="grid--full page-wrapper">
-    <div class="grid__item large--two-thirds push--large--one-sixth">
-      <h1 class="page-title">{{ page.title }}</h1>
-
-      {%for block in section.blocks %}
-
-        {% if block.type == 'faq' %}
-        <div class="accordion {{ block.id }}">
-          <input id="toggle-{{ block.id }}" type="checkbox">
-          <label for="toggle-{{ block.id }}"><h2>{{ block.settings.faq_question}}</h2></label>
-          <div class="response">
-            {{ block.settings.faq_answer }}
-          </div>
-        </div>
-        {% endif %}
-
-      {% endfor %}
-
+<div class="section-faq">
+  <div class="faq-wrapper">
+      <h2 class="faq-title">{{ section.settings.faq_title }}</h1>
+	  <ul>
+        {%for block in section.blocks %}
+          {% if block.type == 'faq' %}
+         	<li>
+              <div class="faq-que">
+                <h3>{{ block.settings.faq_question}}</h3>
+              </div>
+              <div class="faq-ans">
+                <div class="faq-content">
+                	{{ block.settings.faq_answer }}
+                </div>
+              </div>
+        	</li>
+          {% endif %}
+        {% endfor %} 
+      </ul>
     </div>
-  </div>
 </div>
 
 <style>
