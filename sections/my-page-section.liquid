@@ -1,6 +1,11 @@
 {% if section.settings.mycheckboxid %}
 <div>{{ section.settings.mysectionid }}</div>
 {% endif %}
+{% if section.settings.myimage %}
+	<img src="{{ section.settings.myimage }}">
+{% endif %}
+
+
 {% schema %}
   {
     "name": "My new section",
