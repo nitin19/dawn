@@ -2,7 +2,7 @@
 <div>{{ section.settings.mysectionid }}</div>
 {% endif %}
 {% if section.settings.myimage %}
-	<img src="{{ section.settings.myimage }}">
+	<img src="{{ section.settings.myimage | img_url: "400x"}}">
 {% endif %}
 
 
