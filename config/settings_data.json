@@ -33,7 +33,7 @@
         "type": "my-page-section",
         "settings": {
           "mysectionid": "My name is Nitin Kansara, Surat",
-          "mycheckboxid": false
+          "mycheckboxid": true
         }
       },
       "footer": {
