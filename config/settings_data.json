@@ -33,7 +33,8 @@
         "type": "my-page-section",
         "settings": {
           "mysectionid": "My name is Nitin Kansara, Surat",
-          "mycheckboxid": true
+          "mycheckboxid": true,
+          "myimage": "shopify:\/\/shop_images\/Doll.png"
         }
       },
       "footer": {
