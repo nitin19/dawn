@@ -2048,6 +2048,7 @@ details-disclosure > details {
 }
   .gallery{
   	display:flex;
+    width:100%;
   }
   .gallery_item{
   	border:2px solid black;
