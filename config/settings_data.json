@@ -34,25 +34,49 @@
         "blocks": {
           "cce2ebde-c1c5-4eb7-bb82-4eba4423c7b6": {
             "type": "gallery",
-            "disabled": true,
             "settings": {
-              "enable_gallery_img": true
+              "enable_gallery_img": true,
+              "gallery_image": "shopify:\/\/shop_images\/images.jpg"
             }
           },
           "15d39a20-9d1c-44fc-b958-600c23901c79": {
             "type": "gallery",
-            "disabled": true,
             "settings": {
-              "enable_gallery_img": false
+              "enable_gallery_img": true,
+              "gallery_image": "shopify:\/\/shop_images\/avalon-mens-wedding-bridal-suit-groom-exclusive-new-latest-fashion-dress-1.jpg"
+            }
+          },
+          "f5094de4-ae67-4024-a67f-f3168266dfbb": {
+            "type": "gallery",
+            "settings": {
+              "enable_gallery_img": true,
+              "gallery_image": "shopify:\/\/shop_images\/9009.jpg"
+            }
+          },
+          "031b8d87-2c33-4999-8a34-57096b57fb0f": {
+            "type": "gallery",
+            "settings": {
+              "enable_gallery_img": true,
+              "gallery_image": "shopify:\/\/shop_images\/9010.jpg"
+            }
+          },
+          "010347ed-ea29-4047-a8ea-4f9a9c0ddffe": {
+            "type": "gallery",
+            "settings": {
+              "enable_gallery_img": true,
+              "gallery_image": "shopify:\/\/shop_images\/9011.jpg"
             }
           }
         },
         "block_order": [
           "cce2ebde-c1c5-4eb7-bb82-4eba4423c7b6",
-          "15d39a20-9d1c-44fc-b958-600c23901c79"
+          "15d39a20-9d1c-44fc-b958-600c23901c79",
+          "f5094de4-ae67-4024-a67f-f3168266dfbb",
+          "031b8d87-2c33-4999-8a34-57096b57fb0f",
+          "010347ed-ea29-4047-a8ea-4f9a9c0ddffe"
         ],
         "settings": {
-          "mycheckboxid": false,
+          "mycheckboxid": true,
           "mysectionid": "My name is Shruti Kansara, Surat",
           "myimage": "shopify:\/\/shop_images\/Doll.png"
         }
