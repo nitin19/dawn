@@ -11,8 +11,8 @@
   <div class="gallery">
   	{% for block in section.blocks %}
     <div class="gallery_item">
-      	<div class="row">
- 			 <div class="column">
+      	<div class="row" id="myrow">
+ 			<div class="column" id="mycol">
     			{% if block.settings.enable_gallery_img %}
       				<img src="{{ block.settings.gallery_image | img_url: "200x"}}" />
       			{% endif %}
