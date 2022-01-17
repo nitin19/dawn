@@ -31,9 +31,29 @@
       },
       "my-page-section": {
         "type": "my-page-section",
+        "blocks": {
+          "cce2ebde-c1c5-4eb7-bb82-4eba4423c7b6": {
+            "type": "gallery",
+            "disabled": true,
+            "settings": {
+              "enable_gallery_img": true
+            }
+          },
+          "15d39a20-9d1c-44fc-b958-600c23901c79": {
+            "type": "gallery",
+            "disabled": true,
+            "settings": {
+              "enable_gallery_img": false
+            }
+          }
+        },
+        "block_order": [
+          "cce2ebde-c1c5-4eb7-bb82-4eba4423c7b6",
+          "15d39a20-9d1c-44fc-b958-600c23901c79"
+        ],
         "settings": {
+          "mycheckboxid": false,
           "mysectionid": "My name is Shruti Kansara, Surat",
-          "mycheckboxid": true,
           "myimage": "shopify:\/\/shop_images\/Doll.png"
         }
       },
