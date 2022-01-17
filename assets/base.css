@@ -2049,3 +2049,6 @@ details-disclosure > details {
   .gallery{
   	display:flex;
   }
+  .gallery_item{
+  	border:2px solid black;
+  }
