@@ -10,6 +10,11 @@
   <hr>
   <div class+"gallery">
   	{% for block in section.blocks %}
+    <div class="gallery_item">
+    	{% if block.settings.enable_gallery_img %}
+      		<img src="{{ block.settings.gallery_image }}" />
+      	{% endif %}
+    </div>		
     {% endfor %}
   </div>
   
