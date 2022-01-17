@@ -1,10 +1,13 @@
 <div class="custom-section">
-{% if section.settings.mycheckboxid %}
-{{ section.settings.mysectionid }}
-{% endif %}
-{% if section.settings.myimage %}
-	<img src="{{ section.settings.myimage | img_url: "200x"}}">
-{% endif %}
+
+  {% if section.settings.mycheckboxid %}
+  	{{ section.settings.mysectionid }}
+  {% endif %}
+  
+  {% if section.settings.myimage %}
+      <img src="{{ section.settings.myimage | img_url: "200x"}}">
+  {% endif %}
+  
 </div>
 
 {% schema %}
