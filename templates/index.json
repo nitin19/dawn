@@ -121,12 +121,64 @@
       "settings": {
         "faq_title": "FAQ"
       }
+    },
+    "1642431027fc1fc378": {
+      "type": "my-page-section",
+      "blocks": {
+        "164243102777c7ea86-0": {
+          "type": "gallery",
+          "settings": {
+            "enable_gallery_img": true,
+            "gallery_image": "shopify:\/\/shop_images\/images.jpg"
+          }
+        },
+        "164243102777c7ea86-1": {
+          "type": "gallery",
+          "settings": {
+            "enable_gallery_img": true,
+            "gallery_image": "shopify:\/\/shop_images\/avalon-mens-wedding-bridal-suit-groom-exclusive-new-latest-fashion-dress-1.jpg"
+          }
+        },
+        "164243102777c7ea86-2": {
+          "type": "gallery",
+          "settings": {
+            "enable_gallery_img": true,
+            "gallery_image": "shopify:\/\/shop_images\/9011.jpg"
+          }
+        },
+        "57f04fa9-fe32-40aa-b61c-c48e9515eddb": {
+          "type": "gallery",
+          "settings": {
+            "enable_gallery_img": true,
+            "gallery_image": "shopify:\/\/shop_images\/9010.jpg"
+          }
+        },
+        "1aaffdc2-fa4c-4abd-bb10-d33c7c47f5ed": {
+          "type": "gallery",
+          "settings": {
+            "enable_gallery_img": true,
+            "gallery_image": "shopify:\/\/shop_images\/9009.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "164243102777c7ea86-0",
+        "164243102777c7ea86-1",
+        "164243102777c7ea86-2",
+        "57f04fa9-fe32-40aa-b61c-c48e9515eddb",
+        "1aaffdc2-fa4c-4abd-bb10-d33c7c47f5ed"
+      ],
+      "settings": {
+        "mycheckboxid": true,
+        "mysectionid": "What is my name?"
+      }
     }
   },
   "order": [
     "image_banner",
     "featured_products",
     "image_text",
-    "16294569775df35965"
+    "16294569775df35965",
+    "1642431027fc1fc378"
   ]
 }
