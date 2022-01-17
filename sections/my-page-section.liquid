@@ -28,7 +28,27 @@
 				"label":"Add Image"
 			}
 	
-	 	]
+	 	],
+	
+		"blocks" : [
+		   {
+			"type": "gallery",		
+			"name": "Gallery",
+			"settings":[
+				{
+					"type":"checkbox",
+					"id":"enable_gallery_img",
+					"label":"Enable Gallery Image",
+					"default":false
+				},
+				{
+					"type":"image_picker",
+					"id":"gallery_image",
+					"label":"Gallery Image"
+				}
+			]
+		  }
+		]
   }
 {% endschema %}
 
