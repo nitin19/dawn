@@ -2,7 +2,7 @@
 
   {% if section.settings.mycheckboxid %}
   	{{ section.settings.mysectionid }}
- 
+  {% endif %}
   
   {% if section.settings.myimage %}
       <img src="{{ section.settings.myimage | img_url: "200x"}}">
@@ -17,7 +17,7 @@
     </div>		
     {% endfor %}
   </div>
-   {% endif %}
+  
 </div>
 
 {% schema %}
