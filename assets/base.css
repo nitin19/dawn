@@ -2046,13 +2046,7 @@ details-disclosure > details {
     overflow: auto;
   }
 }
-  .gallery{
-  	display:flex;
-    width:100%;
-  }
-  .gallery_item{
-  	border:2px solid black;
-  }
+ 
 
 #myrow{
   display: flex;
