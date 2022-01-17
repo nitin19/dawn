@@ -2054,12 +2054,12 @@ details-disclosure > details {
   	border:2px solid black;
   }
 
-.row {
+#myrow{
   display: flex;
 }
 
 /* Create three equal columns that sits next to each other */
-.column {
+#mycol {
   flex: 33.33%;
   padding: 5px;
 }
