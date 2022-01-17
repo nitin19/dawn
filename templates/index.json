@@ -170,7 +170,8 @@
       ],
       "settings": {
         "mycheckboxid": true,
-        "mysectionid": "What is my name?"
+        "mysectionid": "My name is Nitin Kansara",
+        "myimage": "shopify:\/\/shop_images\/red-and-blue-shoreline-iphone-screen.jpg"
       }
     }
   },
